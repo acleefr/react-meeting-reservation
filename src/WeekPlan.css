@@ -1,0 +1,49 @@
+html {
+  background-color: #b4f03c;
+  color: #173c6e;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.day {
+  margin: 0 10px 0 10px;
+  background-color: #b4f03c;
+  color: #173c6e; 
+  border: #173c6e 2px solid;
+  width: 150px;
+  height: 100%;
+  /*center text*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*display things vertically*/
+  flex-direction: column;
+}
+
+.week {
+  margin: 10px;
+  padding: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1050px;
+  height: 300px;
+}
+
+
+.hour {
+  margin: 1px;
+  border: #173c6e 2px solid;
+  width: 70%;
+  height: 100%;
+  background-color: #173c6e;
+  color: #b4f03c;
+}
+
+.hour:hover {
+  background-color: #b4f03c;
+  color: #173c6e;
+  border: #173c6e 2px solid;
+}
+
