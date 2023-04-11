@@ -4,6 +4,13 @@ html {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   text-align: center;
+  /*center the divs*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*display things vertically*/
+  flex-direction: column;
+  
 }
 
 .day {
